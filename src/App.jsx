@@ -7,7 +7,7 @@ import Detail from "./routes/Detail";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: `${process.env.PUBLIC_URL}/`,
       element: <Home />,
     },
     {
